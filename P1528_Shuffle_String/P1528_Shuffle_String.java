@@ -14,6 +14,7 @@ class Solution {
         return sb.toString();
     }
     
+    
     public String restoreString1(String s, int[] indices) {
         char []sb = new char[indices.length];
         for(int i=0;i< indices.length;i++){
