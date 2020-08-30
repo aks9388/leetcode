@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 
 class Solution {
@@ -22,7 +23,7 @@ class Solution {
 	public static void main(String[] args) {
         Solution sol = new Solution();
         int []nums = {1,2,3,4};
-        String result = sol.decompressRLElist(nums);
+        int[] result = sol.decompressRLElist(nums);
         System.out.println(Arrays.toString(result));
     }
 }
